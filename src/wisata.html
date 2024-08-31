@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-primary">
+  <!-- Navbar -->
+  <nav class="bg-transparent  text-white fixed top-4 w-full z-20 ">
+    <div class=" px-4 md:flex items-center md:justify-between gap-6">
+        <div class="flex items-center justify-between md:w-auto w-full">
+            <img src="../public/Assets/logo.png" alt="" class="w-24 mt-5">
+
+            <div class="md:hidden flex items-center">
+                <button class="toogleButton">
+                    <i class='bx bx-menu-alt-right text-4xl mt-3'></i>
+                </button>
+            </div>
+        </div>
+
+        <div  class="hidden  navigation-menu duration-300 md:block md:justify-between " >
+            <ul class="flex flex-col gap-8 text-center font-semibold md:flex-row text-white "
+            >
+                <li class="hover:text-ternary"><a href="#home" >Home</a></li>
+                <li class="hover:text-ternary"><a href="index.html#tentangkami">Tentang Kami</a></li>
+                <li class="hover:text-ternary"><a href="#wisata">Wisata Jogja</a></li>
+                <li class="hover:text-ternary"><a href="#layanan">Layanan</a></li>
+                <li class="hover:text-ternary"><a href="#kontak">kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End-->
+
+
+<!-- Home -->
+<div class="relative flex justify-center  pt-32 md:pt-44 mb-8" id="home">
+    <img id="home-image" src="../public/assets/borobudor.avif" alt="Borobudur" class="w-11/12 rounded-xl opacity-80 transition-transform duration-500 ease-in-out lg:h-[50em]">
+    
+    <div class="absolute top-52 inset-0 flex flex-col gap-6 md:top-72 xl:top-96 justify-center items-center text-white p-4 max-w-full lg:p-8">
+        <h1 data-aos="fade-right" data-aos-duration = "2000" class="text-2xl lg:text-4xl font-bold w-1/2 text-center md:text-3xl xl:text-6xl ">Jelajah Jogja Dari Alam yang Memesona Hingga Budaya yang Mendalam</h1>
+        <p class="font-semibold text-center">Jogja mengajak Anda menikmati perpaduan indah antara alam yang memukau dan budaya yang kaya</p>
+        <div class="flex gap-4">
+
+        </div>
+    </div>
+</div>
+<!-- Home End-->
+
+<script src="../js/nav.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

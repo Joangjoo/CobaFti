@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-primary">
+  <!-- Navbar -->
+  <nav class="bg-transparent  text-white fixed top-4 w-full z-20 ">
+    <div class=" px-4 md:flex items-center md:justify-between gap-6">
+        <div class="flex items-center justify-between md:w-auto w-full">
+            <img src="../public/Assets/logo.png" alt="" class="w-24 mt-5">
+
+            <div class="md:hidden flex items-center">
+                <button class="toogleButton">
+                    <i class='bx bx-menu-alt-right text-4xl mt-3'></i>
+                </button>
+            </div>
+        </div>
+
+        <div  class="hidden  navigation-menu duration-300 md:block md:justify-between " >
+            <ul class="flex flex-col gap-8 text-center font-semibold md:flex-row text-white "
+            >
+                <li class="hover:text-ternary"><a href="#home" >Home</a></li>
+                <li class="hover:text-ternary"><a href="#tentangkami">Tentang Kami</a></li>
+                <li class="hover:text-ternary"><a href="#wisata">Wisata Jogja</a></li>
+                <li class="hover:text-ternary"><a href="#layanan">Layanan</a></li>
+                <li class="hover:text-ternary"><a href="#kontak">kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End-->
+
+
+<!-- Home -->
+<div class="relative flex justify-center  pt-32 md:pt-44 mb-8" id="home">
+    <img id="home-image" src="../public/assets/borobudor.avif" alt="Borobudur" class="w-11/12 rounded-xl opacity-80 transition-transform duration-500 ease-in-out lg:h-[50em]">
+    
+    <div class="absolute top-52 inset-0 flex flex-col gap-6 md:top-72 xl:top-96 justify-center items-center text-white p-4 max-w-full lg:p-8">
+        <h1 data-aos="fade-right" data-aos-duration = "2000" class="text-2xl lg:text-4xl font-bold max-w-full text-center md:text-3xl xl:text-6xl ">Jelajah Jogja</h1>
+        <div class="flex gap-4">
+            <button data-aos="fade-right" data-aos-duration = "2000" data-aos-delay="600" class="w-40 h-12 bg-transparent border-2 rounded-xl font-semibold backdrop-blur-sm "><a href="wisata.html">Jelajahi Sekarang</a></button>
+            <button data-aos="fade-right" data-aos-duration = "2000" data-aos-delay="800" class="w-40 h-12 bg-transparent font-semibold">Baca Selengkapnya</button>
+        </div>
+        <p data-aos="fade-right" data-aos-duration = "2000" class="text-sm text-center max-w-full w-11/12 lg:w-10/12 mt-auto opacity-75 md:text-base">
+            Jelajah Jogja adalah panduan wisata untuk menjelajahi keindahan alam, budaya, dan sejarah Yogyakarta. Temukan destinasi terbaik dan pengalaman unik hanya di Jogja.
+        </p>
+    </div>
+</div>
+<!-- Home End-->
+
+<!-- Sponsor -->
+<div>
+    <h1 class="text-white font-bold text-center text-lg md:text-2xl opacity-80">Sponsor</h1>
+      <div class="flex flex-wrap items-center justify-center">
+        <img src="../public/assets/airbnb.png" alt="" class="h-24 w-auto mr-6 mt-2 md:h-36 md:mr-9 opacity-80">
+        <img src="../public/assets/expedia.png" alt="" class="h-24 w-auto mr-6 mt-2 md:h-36 md:mr-9 opacity-80">
+        <img src="../public/assets/trip.png" alt="" class="h-24 w-auto mr-6 mt-2 md:h-36 md:mr-9 opacity-80">
+        <img src="../public/assets/traveling.png" alt="" class="h-10 w-auto mr-6 mt-2 md:h-16 md:mr-9 opacity-80">
+        <img src="../public/assets/traveloka.png" alt="" class="h-10 w-40 mr-6 md:h-16 opacity-80">
+        <img src="../public/assets/booking.png" alt="" class="h-10 w-40 mr-6 mt-2 md:h-24 md:w-44 md:mr-9 opacity-80">
+        <img src="../public/assets/tripadvisor.png" alt="" class="h-10 w-auto mr-6 md:h-20 opacity-80">
+      </div>
+  </div>
+  <!-- Sponsor End -->
+  
+  <!-- Tentang Kami -->
+   <div class="relative w-11/12 mx-auto  mt-11" id="tentangkami" data-aos="zoom-in" data-aos-duration="1000">
+    <img src="../public/assets/pantai.jpg" alt="" class="w-full h-auto rounded-xl">
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-75 rounded-xl"></div>
+    <div class="text-white absolute text-center font-bold text-4xl -top-4 -left-2 opacity-85 md:text-5xl md:-left-2 lg:text-6xl" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
+        <p>J</p>
+        <p>O</p>
+        <p>G</p>
+        <p>J</p>
+        <p>A</p>
+    </div>
+
+    <div class="absolute top-52 right-3 md:top-[18rem] lg:top-[29rem] xl:top-[43rem]">
+        <h1 class="text-ternary text-3xl w-64 font-bold mb-2 md:text-5xl md:w-96 lg:mb-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">Apa Itu Jelajah Jogja ? </h1>
+        <p class="text-white text-xs w-80 opacity-80 block text-justify md:hidden " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">Jelajah Jogja adalah panduan komprehensif untuk menjelajahi keindahan dan kekayaan budaya Yogyakarta. Temukan destinasi wisata terbaik, aktivitas menarik, serta pengalaman unik yang hanya bisa Anda temui di kota ini.
+        </p>
+        <p class="text-white text-xs w-80 opacity-80 hidden md:block md:text-justify md:text-sm md:w-[27rem]" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">Jelajah Jogja adalah panduan komprehensif untuk menjelajahi keindahan dan kekayaan budaya Yogyakarta. Temukan destinasi wisata terbaik, aktivitas menarik, serta pengalaman unik yang hanya bisa Anda temui di kota ini. di Website Jelajah Jogja ini kami memberikan informasi lengkap tentang wisata yang ada di yogyakarta Temukan tempat-tempat menarik yang akan membuat kunjungan Anda ke Jogja menjadi tak terlupakan.
+        </p>
+    </div>
+
+</div>
+
+  <!-- Tentang Kami End-->
+
+  <!-- Wisata Jogja -->
+   <div id="wisata" class="mt-12">
+    <div class="text-white text-center mb-5">
+        <h1 class="text-ternary text-3xl mb-2 font-bold">Wisata Jogja</h1>
+        <p class="text-lg">Temukan destinasi wisata terbaik di Jogja</p>
+    </div>
+
+    <div class="flex flex-wrap gap-10 justify-center items-center">
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/prambanan.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Candi Prambanan</h1>
+                    <p class="text-base">Warisan Budaya Yogyakarta</p>
+                    <p class="text-sm">Jelajahi kemegahan Candi Prambanan, kompleks candi Hindu terbesar di Indonesia, yang menawarkan keindahan arsitektur dan sejarah yang kaya.</p>                                          
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="600"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/malioboro.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Malioboro</h1>
+                    <p class="text-base">Ikon Wisata Belanja Yogyakarta</p>
+                    <p class="text-sm">Rasakan atmosfer khas Malioboro, pusat keramaian Yogyakarta yang menawarkan pengalaman belanja dan kuliner yang tak terlupakan.</p>                                          
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="800"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/mangunan.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Mangunan</h1>
+                    <p class="text-base">Pesona Alam Yogyakarta</p>
+                    <p class="text-sm">Nikmati keindahan alam Mangunan dengan pemandangan perbukitan yang menakjubkan dan suasana yang menenangkan di atas awan.</p>            
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="900"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/pantai.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Pantai Parangtritis</h1>
+                    <p class="text-base">Ikon Pantai di Yogyakarta</p>
+                    <p class="text-sm">Rasakan pesona Pantai Parangtritis dengan deburan ombak yang menenangkan, pasir hitam yang eksotis, dan panorama matahari terbenam yang memukau.</p>                                          
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="1000"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/pantai2.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Pantai Gunkid</h1>
+                    <p class="text-base">Ikon Pantai di Yogyakarta</p>
+                    <p class="text-sm">Rasakan pesona Pantai Parangtritis dengan deburan ombak yang menenangkan, pasir hitam yang eksotis, dan panorama matahari terbenam yang memukau.</p>                                          
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-60 w-64 lg:h-64 lg:w-96 [perspective:1000px] ml-2"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="1200"
+        >
+            <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] mt-3 ">
+              <div class="absolute inset-0">
+                <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="../public/assets/wisata2.avif" alt="" />
+              </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center">
+                    <h1 class="text-xl font-bold mb-2">Hutan Pinus Mangunan</h1>
+                    <p class="text-base">Wisata Alam di Yogyakarta</p>
+                    <p class="text-sm">Nikmati suasana sejuk dan asri di Hutan Pinus Mangunan, dengan deretan pohon pinus yang menjulang tinggi, menciptakan suasana tenang dan menenangkan seperti di tengah hutan.</p>                                          
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+  <!-- Wisata Jogja End-->
+
+  <!-- Layanan -->
+   <section id="layanan" class="mt-11" >
+      <div class="flex flex-col justify-center">
+        <h1 class="text-ternary text-3xl font-bold text-center md:text-6xl">Layanan</h1>
+        <p class="text-white text-base text-center mt-3 md:text-2xl opacity-80">Layanan Premium dengan Sentuhan Persona</p>
+      </div>
+
+      <div class="mt-6">
+        <div class="flex flex-col  items-center justify-center gap-8 mt-3 md:flex-row">
+
+          <div class="flex flex-col items-center mb-10 h-64" data-aos="fade-right" data-aos-duration="2000">
+            <div class="mt-7 mb-5">
+                <img src="../public/assets/destination.png" alt="">
+            </div>
+            <div class="flex gap-8 flex-col ">
+                <h2 class="font-bold text-ternary text-lg text-center">Pemandu Wisata Terbaik</h2>
+                <p class="text-lg leading-relaxed text-white opacity-50 text-center">Menjelajahi keindahan yang tak terlihat sebelumnya</p>
+            </div>
+        </div>
+        
+        <div class="flex flex-col items-center mb-10 h-64" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800">
+          <div class="mt-7 mb-5">
+              <img src="../public/assets/booking1.png" alt="">
+          </div>
+          <div class="flex gap-8 flex-col ">
+              <h2 class="font-bold text-ternary text-lg text-center">Pemesanan Yang Gampang</h2>
+              <p class="text-lg leading-relaxed text-white opacity-50 text-center">Mudah memesan, mudah menikmati keindahan</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center mb-10 h-64" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1200">
+          <div class="mt-7 mb-5">
+              <img src="../public/assets/cloudy.png" alt="">
+          </div>
+          <div class="flex gap-8 flex-col ">
+              <h2 class="font-bold text-ternary text-lg text-center">Layanan Cuaca yang Akurat</h2>
+              <p class="text-lg leading-relaxed text-white opacity-50 text-center">Informasi cuaca terkini, cepat, dan terpercaya setiap saat</p>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+   </section>
+  <!-- Layanan End-->
+
+  <!-- Kontak -->
+   <footer>
+    <div>
+      
+    </div>
+   </footer>
+  <!-- Kontak End-->
+<script src="../js/nav.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
