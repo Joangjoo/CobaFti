@@ -26,16 +26,5 @@ function scrollTop(){
 window.addEventListener("scroll",scrollTop)
 
 
-const image = document.getElementById("home-image")
-function scroll(){
-    if(window.scrollY > 40){
-      image.classList.add("w-full")  
-      image.classList.remove("w-11/12")
-    }else{
-        image.classList.add("w-11/12")
-        image.classList.remove("w-full")
-    }
-}
 
-window.addEventListener("scroll",scroll)
 
